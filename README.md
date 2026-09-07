@@ -247,8 +247,12 @@ O **Map-OS** é um software livre sustentado pelo esforço de desenvolvedores vo
 
 ## 👨‍💻 Autor & Contribuidores
 
-| [<img src="https://avatars.githubusercontent.com/RamonSilva20?s=120" width="100px;" style="border-radius:50%;" alt="Ramon Silva"/><br /><sub><b>Ramon Silva</b></sub>](https://github.com/RamonSilva20) |
-| :-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+<p align="center">
+  <a href="https://github.com/RamonSilva20">
+    <img src="https://images.weserv.nl/?url=github.com/RamonSilva20.png&mask=circle&w=120&h=120" alt="Ramon Silva" width="100px" /><br />
+    <sub><b>Ramon Silva</b></sub>
+  </a>
+</p>
 
 Agradecemos imensamente a todos os membros da comunidade que colaboram com o projeto:
 
@@ -262,4 +266,4 @@ Agradecemos imensamente a todos os membros da comunidade que colaboram com o pro
 
 ## 📄 Licença
 
-Este projeto é distribuído sob a licença **Apache License 2.0**. Consulte o arquivo [LICENSE](LICENSE.txt) para obter mais informações.
+Este projeto é distribuído sob a licença **Apache License 2.0**. Consulte o arquivo [LICENSE.txt](LICENSE.txt) para obter mais informações.
