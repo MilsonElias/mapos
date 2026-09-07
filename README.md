@@ -38,7 +38,7 @@ Mantido e desenvolvido ativamente pela **[MountBit](https://mountbit.com.br)** e
 
 | Módulo                          | Funcionalidades em Destaque                                                                                                                                                       |
 | :------------------------------ | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Ordens de Serviço**        | Status configuráveis, termos de garantia personalizados, laudos técnicos, fotos/anexos, checklist, impressão térmica e A4, assinatura digital e envio direto via WhatsApp/E-mail. |
+| **Ordens de Serviço**        | Status configuráveis, termos de garantia personalizados, laudos técnicos, fotos/anexos, impressão térmica e A4 e envio direto via WhatsApp/E-mail. |
 | **Clientes & Fornecedores**  | Cadastro completo com histórico detalhado de compras e serviços, busca rápida por CNPJ e integração com CEP.                                                                  |
 | **Portal do Cliente (Mine)** | Área externa exclusiva onde o cliente pode acompanhar o andamento da sua OS em tempo real, aprovar/recusar orçamentos e emitir faturas.                                           |
 | **Controle de Estoque**      | Cadastro de produtos com código de barras, estoque mínimo com alerta, histórico de movimentação e cálculo automático de margem de lucro.                                          |
