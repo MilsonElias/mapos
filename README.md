@@ -1,162 +1,267 @@
+<div align="center">
+
+  <img src="https://raw.githubusercontent.com/RamonSilva20/mapos/master/docs/dashboard.png" alt="Map-OS Dashboard" width="100%" style="border-radius: 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.15);" />
 
 ![MapOS](https://raw.githubusercontent.com/RamonSilva20/mapos/master/assets/img/logo.png)
 
-![version](https://img.shields.io/badge/version-4.54.0-blue.svg?longCache=true&style=flat-square)
-![license](https://img.shields.io/badge/license-Apache-green.svg?longCache=true&style=flat-square)
-![theme](https://img.shields.io/badge/theme-Matrix--Admin-lightgrey.svg?longCache=true&style=flat-square)
-![issues](https://img.shields.io/github/issues/RamonSilva20/mapos.svg?longCache=true&style=flat-square)
-![contributors](https://img.shields.io/github/contributors/RamonSilva20/mapos.svg?longCache=true&style=flat-square)
+### Sistema Open Source Completo para Gestão de Ordens de Serviço e Vendas
 
-### Contato: contato@mapos.com.br
-### [Feedback](https://github.com/RamonSilva20/mapos/discussions) - Vote ou sugira melhorias
+  <p align="center">
+    <a href="https://github.com/RamonSilva20/mapos/releases"><img src="https://img.shields.io/badge/Versão-4.54.0-0284c7.svg?style=for-the-badge&logo=tag&logoColor=white" alt="Versão"></a>
+    <a href="https://php.net"><img src="https://img.shields.io/badge/PHP-%3E%3D_8.4-777bb4.svg?style=for-the-badge&logo=php&logoColor=white" alt="PHP 8.4"></a>
+    <a href="https://www.mysql.com/"><img src="https://img.shields.io/badge/MySQL-%3E%3D_5.7_%7C_8.0-4479a1.svg?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL"></a>
+    <a href="LICENSE"><img src="https://img.shields.io/badge/Licença-Apache_2.0-16a34a.svg?style=for-the-badge&logo=apache&logoColor=white" alt="Licença"></a>
+  </p>
 
-![Map-OS](https://raw.githubusercontent.com/RamonSilva20/mapos/master/docs/dashboard.png)
+  <p align="center">
+    <a href="#-sobre-o-projeto">Sobre</a> •
+    <a href="#-recursos-principais">Recursos</a> •
+    <a href="#-instalação">Instalação</a> •
+    <a href="#-atualização">Atualização</a> •
+    <a href="#-gateways-de-pagamento">Pagamentos</a> •
+    <a href="#-hospedagem-parceira">Hospedagem</a> •
+    <a href="#-apoie-o-projeto">Doações</a> •
+    <a href="#-comunidade--contato">Comunidade</a>
+  </p>
 
-### Apoie o Projeto Map-OS - Doações
+</div>
 
-O **Map-OS** é um projeto open source mantido com muito esforço, dedicação e tempo.
-Se ele te ajuda no dia a dia, considere apoiar o desenvolvimento para que o sistema continue evoluindo, recebendo melhorias, correções e novos recursos.
+---
 
-Você pode contribuir de forma simples e segura pelo link abaixo:
+## 📌 Sobre o Projeto
 
-**Faça uma doação:** https://donate.mapos.com.br
+O **Map-OS** é uma solução robusta, gratuita e de código aberto voltada para pequenas e médias empresas, assistências técnicas e prestadores de serviços. O sistema centraliza todo o fluxo de trabalho operacional: desde o atendimento inicial e emissão de Ordens de Serviço até o controle financeiro, estoque, vendas de balcão e cobranças automatizadas via PIX, boleto e cartão.
 
-Toda contribuição, independente do valor, faz a diferença.
-Obrigado por apoiar o Map-OS!
+Mantido e desenvolvido ativamente pela **[MountBit](https://mountbit.com.br)** em conjunto com a comunidade open source.
 
-### Comunidade no WhatsApp
+---
 
-Participe da comunidade oficial do **Map-OS** no WhatsApp para tirar dúvidas, trocar experiências e acompanhar novidades do projeto:
+## ✨ Recursos Principais
 
-**Entre na comunidade:**
-https://chat.whatsapp.com/GVSg8tPQzXy0grfYpRfQps
+| Módulo                          | Funcionalidades em Destaque                                                                                                                                                       |
+| :------------------------------ | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 🛠️ **Ordens de Serviço**        | Status configuráveis, termos de garantia personalizados, laudos técnicos, fotos/anexos, checklist, impressão térmica e A4, assinatura digital e envio direto via WhatsApp/E-mail. |
+| 👥 **Clientes & Fornecedores**  | Cadastro completo com histórico detalhado de compras e serviços, busca rápida por CPF/CNPJ e integração com CEP.                                                                  |
+| 🌐 **Portal do Cliente (Mine)** | Área externa exclusiva onde o cliente pode acompanhar o andamento da sua OS em tempo real, aprovar/recusar orçamentos e emitir faturas.                                           |
+| 📦 **Controle de Estoque**      | Cadastro de produtos com código de barras, estoque mínimo com alerta, histórico de movimentação e cálculo automático de margem de lucro.                                          |
+| 🛒 **Vendas & PDV**             | Frente de caixa ágil para vendas de balcão, aplicação de descontos, faturamento direto e emissão de comprovantes.                                                                 |
+| 💰 **Financeiro & Cobranças**   | Contas a pagar/receber, fluxo de caixa, conciliação e geração automática de cobranças com QR Code PIX dinâmico e boletos.                                                         |
+| 📊 **Relatórios & Auditoria**   | Relatórios com exportação para PDF e Excel (`.xlsx`), além de trilha de auditoria completa das ações dos usuários.                                                                |
+| 🔐 **Segurança & Permissões**   | Controle de acesso granular por perfil de usuário, logs de autenticação e proteção contra CSRF/XSS.                                                                               |
 
-### Manutenção do Projeto
+---
 
-O **Map-OS** é um projeto de código aberto **mantido e desenvolvido pela empresa [MountBit](https://mountbit.com.br)**, responsável pela sua evolução contínua, correções e apoio à comunidade.
+## 💳 Gateways de Pagamento
 
-### Contribuindo
+O Map-OS possui integrações nativas prontas para uso com os principais intermediadores:
 
-Quer ajudar a melhorar o Map-OS? Leia o **[Guia de Contribuição](CONTRIBUTING.md)** para saber como preparar o ambiente de desenvolvimento, o padrão de código adotado e como abrir um Pull Request.
+- **[Asaas](https://asaas.com/)**: Cobranças via PIX Dinâmico, Boletos e Cartão de Crédito com retorno automático.
+- **[Mercado Pago](https://www.mercadopago.com.br/)**: Checkout transparente, PIX e Cartão.
+- **[Efí (antiga Gerencianet)](https://sejaefi.com.br/)**: Emissão de boletos registrados e PIX com confirmação em tempo real via Webhook.
 
-### [Instalação](Instalacao_xampp_windows.md)
+---
 
-1. Faça o download dos arquivos.
-2. Extraia o pacote e copie para seu webserver.
-3. Rode o comando `composer install --no-dev` a partir da raiz do projeto.
-4. Acesse sua URL e inicie a instalação, é bem simples, basta preencher as informações no assistente de instalação **MAPOS**.
-5. Configure o email de envio em Configurações > Sistema > E-mail .
-6. Configurar cron jobs para envio de e-mail:
-    ##### Enviar emails pendentes a cada 2 minutos.
-    - */2 * * * * php /var/www/index.php email/process
-    ##### Enviar emails com falha a cada 5 minutos.
-    - */5 * * * * php /var/www/index.php email/retry
+## 🖥️ Requisitos do Sistema
 
-    ##### Obs: O path até o index.php (/var/www/) deve ser configurado conforme o seu ambiente
+- **PHP**: `^8.4` (extensões recomendadas: `curl`, `gd`, `mbstring`, `openssl`, `zip`, `xml`)
+- **Banco de Dados**: MySQL `>= 5.7` ou `>= 8.0` / MariaDB `>= 10.3`
+- **Gerenciador de Dependências**: Composer `>= 2.x`
+- **Servidor Web**: Apache (com `mod_rewrite` ativado), Nginx ou Docker
 
+---
 
-### Instalação (Docker)
+## 🚀 Instalação
 
-1. Faça o download dos arquivos.
-2. Instale o [Docker](https://docs.docker.com/install/) e o [Docker Compose](https://docs.docker.com/compose/install/).
-3. Entre na pasta `docker` no seu terminal e rode o comando `docker-compose up --force-recreate`.
-4. Acesse a URL `http://localhost:8000/` no navegador e inicie a instalação.
-5. Na etapa de configuração use as seguintes configurações:
+Escolha o método mais adequado para o seu ambiente:
+
+### ⚡ Opção 1: Instalação Automatizada (Recomendado)
+
+> [!TIP]
+> Assista ao [Tutorial em Vídeo da Instalação Automatizada](https://www.youtube.com/watch?v=aZE-LW_YOE4) para acompanhar o passo a passo.
+
+#### 🪟 Windows 10/11
+
+1. Abra o **PowerShell** como **Administrador**;
+2. Execute o comando abaixo:
+    ```powershell
+    PowerShell -command "& { iwr https://raw.githubusercontent.com/RamonSilva20/mapos/master/install.bat -OutFile MapOS_Install.bat }; .\MapOS_Install.bat"
+    ```
+3. Siga as instruções exibidas na tela.
+
+#### 🐧 Linux (Ubuntu / Debian)
+
+1. Abra o terminal do servidor ou acesse via SSH;
+2. Obtenha privilégios de superusuário:
+    ```bash
+    sudo su
+    ```
+3. Execute o script de auto-instalação:
+    ```bash
+    curl -o MapOS_Install.sh -L https://raw.githubusercontent.com/RamonSilva20/mapos/master/install.sh && chmod +x MapOS_Install.sh && ./MapOS_Install.sh
+    ```
+4. Siga as orientações na tela.
+
+---
+
+### 🐳 Opção 2: Instalação via Docker
+
+1. Certifique-se de possuir o [Docker](https://docs.docker.com/install/) e o [Docker Compose](https://docs.docker.com/compose/install/) instalados;
+2. Clone este repositório ou faça o download dos arquivos;
+3. Acesse o diretório `docker/` no terminal e execute:
+    ```bash
+    docker-compose up -d --force-recreate
+    ```
+4. Acesse no navegador: `http://localhost:8000/`;
+5. No assistente de instalação, utilize os seguintes dados de banco:
+    - **Host:** `mysql`
+    - **Usuário:** `mapos`
+    - **Senha:** `mapos`
+    - **Banco de Dados:** `mapos`
+    - **URL do Sistema:** `http://localhost:8000/`
+6. O **PhpMyAdmin** estará disponível em: `http://localhost:8080/`.
+
+> [!WARNING]
+> A pasta `docker/data` armazena os dados persistentes do MySQL. Não a exclua para evitar perda de dados.
+
+---
+
+### 📦 Opção 3: Instalação Manual (XAMPP, Laragon, Apache, Nginx)
+
+1. Faça o clone ou download do repositório para o diretório raiz do seu servidor web (ex: `htdocs` ou `www`);
+2. Na raiz do projeto, instale as dependências via Composer:
+    ```bash
+    composer install --no-dev
+    ```
+3. Crie um banco de dados MySQL vazio (com collation `utf8mb4_unicode_ci`);
+4. Acesse a URL do sistema no navegador e conclua o assistente de instalação;
+5. Acesse **Configurações > Sistema > E-mail** e configure seu servidor SMTP;
+6. Configure as **Tarefas Agendadas (Cron Jobs)** no servidor:
+    ```cron
+    # Envio de e-mails pendentes (a cada 2 minutos)
+    */2 * * * * php /caminho/para/seu/projeto/index.php email/process
+
+    # Tentativa de reenvio de falhas (a cada 5 minutos)
+    */5 * * * * php /caminho/para/seu/projeto/index.php email/retry
+    ```
+
+---
+
+## 🔄 Procedimento de Atualização
+
+### Atualização Manual
+
+1. **Faça backup completo** do banco de dados e dos arquivos em **Configurações > Backup**;
+2. Copie e preserve as seguintes pastas e arquivos da versão atual:
+    - `assets/anexos/`
+    - `assets/arquivos/`
+    - `assets/uploads/`
+    - `assets/userimage/`
+    - Personalizações na pasta `assets/img/`
+    - Arquivo de ambiente `application/.env`
+3. Substitua o restante dos arquivos pelos da nova versão;
+4. Execute na raiz do projeto:
+    ```bash
+    composer install --no-dev
+    ```
+5. Restaure as pastas de arquivos e o `.env` preservados no passo 2;
+6. Execute a migração do banco de dados:
+    - **Via Painel:** Acesse como Administrador em **Configurações > Sistema > Atualizar Banco de Dados**;
+    - **Via CLI:** Execute o comando:
+        ```bash
+        php index.php tools migrate
+        ```
+
+### Atualização no Docker
+
+1. Pare os contêineres: `docker-compose down`;
+2. Realize o backup dos dados conforme instruções acima;
+3. Atualize o código-fonte mantendo seu `.env` e pasta `docker/data`;
+4. Suba novamente os contêineres:
+    ```bash
+    docker-compose up -d --force-recreate
+    ```
+5. Execute as migrações pelo painel ou terminal: `php index.php tools migrate`.
+
+---
+
+## ⌨️ Comandos de Linha de Comando (CLI Tools)
+
+O Map-OS disponibiliza utilitários via terminal para manutenções e rotinas de sistema. Para listar todos os comandos disponíveis:
+
+```bash
+php index.php tools
 ```
-1. Por favor, insira as informações da sua conexão de banco de dados.
-Host: mysql
-Usuário: mapos
-Senha: mapos
-Banco de Dados: mapos
 
-2. Por favor, insira as informações para sua conta de administrador.
-Configure do jeito que quiser.
+- **Executar migrações do banco:** `php index.php tools migrate`
+- **Processar fila de e-mails:** `php index.php email/process`
+- **Reprocessar e-mails com erro:** `php index.php email/retry`
 
-3. Por favor, insira a URL.
-URL: http://localhost:8000/
-```
-6. Configure o email de envio em Configurações > Sistema > E-mail .
+---
 
-    ##### Obs: Cuide da pasta `docker/data`, onde é pasta que o mysql do docker salva os arquivos. Se for deletada você perderá seu banco de dados.
-    ##### Obs2: O PhpMyAdmin também e instalado e pode ser acessado em `http://localhost:8080/`.
+## ☁️ Hospedagem Parceira
 
-### Instalação Automatizada
-Tutorial Instalação: [https://youtu.be/NgXzzBB_2bM?si=FS_R2xq_W0Jnfn33](https://www.youtube.com/watch?v=aZE-LW_YOE4)
-#### Windows 10/11
-1. Execute o Prompt de Comando ou PowerShell como Administrador;
-2. Execute o comando: `PowerShell -command "& { iwr https://raw.githubusercontent.com/RamonSilva20/mapos/master/install.bat -OutFile MapOS_Install.bat }; .\MapOS_Install.bat"`
-3. Siga as instrunções na tela.
+Em parceria oficial com o Projeto Map-OS, a **SysGO** oferece hospedagem otimizada e suporte especializado com excelente custo-benefício e estabilidade.
 
-#### Linux (Ubuntu/Debian)
-1. Abra o Terminal ou acesse seu servidor via SSH;
-2. Eleve o privilégio aplicando `sudo su` (Recomendado);
-3. Execute o comando: `curl -o MapOS_Install.sh -L https://raw.githubusercontent.com/RamonSilva20/mapos/master/install.sh && chmod +x MapOS_Install.sh && ./MapOS_Install.sh`
-4. Siga as instruções na tela.
+<p align="center">
+  <a href="https://sysgo.com.br/mapos">
+    <img src="https://sysgo.com.br/img-externo/mapos-github.jpg" alt="SysGO - MAP-OS Cloud Hosting" width="60%" style="border-radius: 8px;" />
+  </a>
+  <br>
+  👉 <a href="https://sysgo.com.br/mapos"><strong>Clique aqui para conhecer os planos de Hospedagem Map-OS</strong></a>
+</p>
 
-### Atualização
+---
 
-1. Faça o backup dos arquivos e do banco de dados:
-2. Logado como administrador vá em `configurações > backup`.
-3. Dentro da pasta `Assets` copie as pastas `anexos`, `arquivos`, `uploads`, `userimage` e qualquer personalização feita dentro da pasta `img`.
-4. Dentro da pasta `application` copie o arquivo `.env`.;
-5. Substitua os arquivos pelos da nova versão.
-6. Rode o comando `composer install --no-dev` a partir da raiz do projeto.
-7. Restaure os backups para seus locais devidos.
-8. Logue no sistema como administrador e navegue até Configurações -> Sistema e clique no botão `Atualizar Banco de Dados` para atualizar seu banco de dados.
-    Obs.: Também é possível atualizar o banco de dados via terminal rodando o comando `php index.php tools migrate` a partir da raiz do projeto;
-9. Pronto, sua atualização está concluída;
+## 🤝 Apoie o Projeto
 
-### Atualização (Docker)
+O **Map-OS** é um software livre sustentado pelo esforço de desenvolvedores voluntários. Se o sistema é útil no seu negócio e te ajuda a lucrar, considere apoiar financeiramente para garantir a continuidade, novas funcionalidades e correções de segurança.
 
-1. Pare o docker de rodar;
-2. Faça o backup dos arquivos e do banco de dados:
-3. Logado como administrador vá em `configurações > backup`.
-4. Dentro da pasta `Assets` copie as pastas `anexos`, `arquivos`, `uploads`, `userimage` e qualquer personalização feita dentro da pasta `img`.
-5. Dentro da pasta `application` copie o arquivo `.env`.
-6. Substitua os arquivos pelos da nova versão;
-7. Entre na pasta `docker` no seu terminal e rode o comando `docker-compose up --force-recreate`;
-8. Logue no sistema como administrador e navegue até Configurações -> Sistema e clique no botão `Atualizar Banco de Dados` para atualizar seu banco de dados.
-    Obs.: Também é possível atualizar o banco de dados via terminal rodando o comando `php index.php tools migrate` a partir da raiz do projeto;
-9. Restaure os backups para seus locais devidos;
-10. Pronto, sua atualização está concluída;
+<p align="center">
+  <a href="https://donate.mapos.com.br">
+    <img src="https://img.shields.io/badge/Apoiar_com_Doação-Fazer_Contribuição-ff5c5c.svg?style=for-the-badge&logo=heart&logoColor=white" alt="Doar para o Map-OS">
+  </a>
+</p>
 
-### Atualização via sistema
+---
 
-1. Primeiro é necessário atualizar manualmente o sistema para a versão v4.4.0;
-2. Quando estiver nessa versão é possível atualizar o sistema clicando no botão "Atualizar Mapos" em Sistema >> Configurações;
-3. Serão baixados e atualizados todos os arquivos exceto: `config.php`, `database.php` e `email.php`;
+## 💬 Comunidade & Contato
 
-### Comandos de terminal
+- 📧 **E-mail de Contato:** [contato@mapos.com.br](mailto:contato@mapos.com.br)
+- 💬 **Comunidade no WhatsApp:** [Entrar no Grupo Oficial](https://chat.whatsapp.com/GVSg8tPQzXy0grfYpRfQps)
+- 💡 **Sugestões e Discussões:** [GitHub Discussions](https://github.com/RamonSilva20/mapos/discussions)
+- 🏢 **Desenvolvido e Mantido por:** [MountBit Soluções Web](https://mountbit.com.br)
 
-Para listar todos os comandos de terminal disponíveis, basta executar o comando `php index.php tools` a partir da raiz do projeto, após feita todo o processo de instalação.
+---
 
-### Hospedagem Parceira
-Em parceria com o Projeto Map-OS a SysGO oferece hospedagem de qualidade e suporte personalizado para usuários dos Map-OS com custo justo e confiabilidade.
-Solicite sua hospedagem agora [Clique Aqui!](https://sysgo.com.br/mapos)
+## 📈 Histórico de Estrelas
 
-<p><img src="https://sysgo.com.br/img-externo/mapos-github.jpg" alt="SysGO - MAP-OS Cloud Hosting" style="width:50%;"></p>
+<p align="center">
+  <a href="https://star-history.com/#RamonSilva20/mapos&Date">
+   <picture>
+     <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=RamonSilva20/mapos&type=Date&theme=dark" />
+     <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=RamonSilva20/mapos&type=Date" />
+     <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=RamonSilva20/mapos&type=Date" />
+   </picture>
+  </a>
+</p>
 
-### Frameworks/Bibliotecas
-* [bcit-ci/CodeIgniter](https://github.com/bcit-ci/CodeIgniter)
-* [twbs/bootstrap](https://github.com/twbs/bootstrap)
-* [jquery/jquery](https://github.com/jquery/jquery)
-* [jquery/jquery-ui](https://github.com/jquery/jquery-ui)
-* [mpdf/mpdf](https://github.com/mpdf/mpdf)
-* [Matrix Admin](http://wrappixel.com/demos/free-admin-templates/matrix-admin/index.html)
-* [filp/whoops](https://github.com/filp/whoops)
-* [ezyang/htmlpurifier](https://github.com/ezyang/htmlpurifier)
+---
 
-### Requerimentos
-* PHP >= 8.4
-* MySQL >= 5.7 ou >= 8.0
-* Composer >= 2
+## 👨‍💻 Autor & Contribuidores
 
-### Estrelas
-[![Estrelas](https://star-history.dera.page/svg?repos=RamonSilva20/mapos&type=Date)](https://star-history.dera.page/#RamonSilva20/mapos&Date)
+| [<img src="https://avatars.githubusercontent.com/RamonSilva20?s=120" width="100px;" style="border-radius:50%;" alt="Ramon Silva"/><br /><sub><b>Ramon Silva</b></sub>](https://github.com/RamonSilva20) |
+| :-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 
-### Contribuidores
-[![Contribuidores](https://contrib.rocks/image?repo=RamonSilva20/mapos)](https://github.com/RamonSilva20/mapos/graphs/contributors)
+Agradecemos imensamente a todos os membros da comunidade que colaboram com o projeto:
 
-## Autor
-| [<img src="https://avatars.githubusercontent.com/RamonSilva20?s=115"><br><sub>Ramon Silva</sub>](https://github.com/RamonSilva20) |
-| :---: |
+<p align="center">
+  <a href="https://github.com/RamonSilva20/mapos/graphs/contributors">
+    <img src="https://contrib.rocks/image?repo=RamonSilva20/mapos" alt="Contribuidores do Map-OS" />
+  </a>
+</p>
+
+---
+
+## 📄 Licença
+
+Este projeto é distribuído sob a licença **Apache License 2.0**. Consulte o arquivo [LICENSE](LICENSE) para obter mais informações.
