@@ -8,7 +8,7 @@
     <a href="https://github.com/RamonSilva20/mapos/releases"><img src="https://img.shields.io/badge/Versão-4.54.0-0284c7.svg?style=for-the-badge&logo=tag&logoColor=white" alt="Versão"></a>
     <a href="https://php.net"><img src="https://img.shields.io/badge/PHP-%3E%3D_8.4-777bb4.svg?style=for-the-badge&logo=php&logoColor=white" alt="PHP 8.4"></a>
     <a href="https://www.mysql.com/"><img src="https://img.shields.io/badge/MySQL-%3E%3D_5.7_%7C_8.0-4479a1.svg?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL"></a>
-    <a href="LICENSE"><img src="https://img.shields.io/badge/Licença-Apache_2.0-16a34a.svg?style=for-the-badge&logo=apache&logoColor=white" alt="Licença"></a>
+    <a href="LICENSE.txt"><img src="https://img.shields.io/badge/Licença-Apache_2.0-16a34a.svg?style=for-the-badge&logo=apache&logoColor=white" alt="Licença"></a>
   </p>
 
   <p align="center">
