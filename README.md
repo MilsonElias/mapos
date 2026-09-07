@@ -26,7 +26,7 @@
 
 ---
 
-## 📌 Sobre o Projeto
+## Sobre o Projeto
 
 O **Map-OS** é uma solução robusta, gratuita e de código aberto voltada para pequenas e médias empresas, assistências técnicas e prestadores de serviços. O sistema centraliza todo o fluxo de trabalho operacional: desde o atendimento inicial e emissão de Ordens de Serviço até o controle financeiro, estoque, vendas de balcão e cobranças automatizadas via PIX, boleto e cartão.
 
@@ -34,7 +34,7 @@ Mantido e desenvolvido ativamente pela **[MountBit](https://mountbit.com.br)** e
 
 ---
 
-## ✨ Recursos Principais
+## Recursos Principais
 
 | Módulo                          | Funcionalidades em Destaque                                                                                                                                                       |
 | :------------------------------ | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -49,7 +49,7 @@ Mantido e desenvolvido ativamente pela **[MountBit](https://mountbit.com.br)** e
 
 ---
 
-## 💳 Gateways de Pagamento
+## Gateways de Pagamento
 
 O Map-OS possui integrações nativas prontas para uso com os principais intermediadores:
 
@@ -59,7 +59,7 @@ O Map-OS possui integrações nativas prontas para uso com os principais interme
 
 ---
 
-## 🖥️ Requisitos do Sistema
+## Requisitos do Sistema
 
 - **PHP**: `^8.4` (extensões recomendadas: `curl`, `gd`, `mbstring`, `openssl`, `zip`, `xml`)
 - **Banco de Dados**: MySQL `>= 5.7` ou `>= 8.0` / MariaDB `>= 10.3`
@@ -68,7 +68,7 @@ O Map-OS possui integrações nativas prontas para uso com os principais interme
 
 ---
 
-## 🚀 Instalação
+## Instalação
 
 Escolha o método mais adequado para o seu ambiente:
 
@@ -144,7 +144,7 @@ Escolha o método mais adequado para o seu ambiente:
 
 ---
 
-## 🔄 Procedimento de Atualização
+## Procedimento de Atualização
 
 ### Atualização Manual
 
@@ -182,7 +182,7 @@ Escolha o método mais adequado para o seu ambiente:
 
 ---
 
-## ⌨️ Comandos de Linha de Comando (CLI Tools)
+## Comandos de Linha de Comando (CLI Tools)
 
 O Map-OS disponibiliza utilitários via terminal para manutenções e rotinas de sistema. Para listar todos os comandos disponíveis:
 
@@ -196,7 +196,7 @@ php index.php tools
 
 ---
 
-## ☁️ Hospedagem Parceira
+## Hospedagem Parceira
 
 Em parceria oficial com o Projeto Map-OS, a **SysGO** oferece hospedagem otimizada e suporte especializado com excelente custo-benefício e estabilidade.
 
@@ -210,7 +210,7 @@ Em parceria oficial com o Projeto Map-OS, a **SysGO** oferece hospedagem otimiza
 
 ---
 
-## 🤝 Apoie o Projeto
+## Apoie o Projeto
 
 O **Map-OS** é um software livre sustentado pelo esforço de desenvolvedores voluntários. Se o sistema é útil no seu negócio e te ajuda a lucrar, considere apoiar financeiramente para garantir a continuidade, novas funcionalidades e correções de segurança.
 
@@ -222,7 +222,7 @@ O **Map-OS** é um software livre sustentado pelo esforço de desenvolvedores vo
 
 ---
 
-## 💬 Comunidade & Contato
+## Comunidade & Contato
 
 - 📧 **E-mail de Contato:** [contato@mapos.com.br](mailto:contato@mapos.com.br)
 - 💬 **Comunidade no WhatsApp:** [Entrar no Grupo Oficial](https://chat.whatsapp.com/GVSg8tPQzXy0grfYpRfQps)
@@ -231,7 +231,7 @@ O **Map-OS** é um software livre sustentado pelo esforço de desenvolvedores vo
 
 ---
 
-## 📈 Histórico de Estrelas
+## Histórico de Estrelas
 
 <p align="center">
   <a href="https://star-history.com/#RamonSilva20/mapos&Date">
@@ -245,7 +245,7 @@ O **Map-OS** é um software livre sustentado pelo esforço de desenvolvedores vo
 
 ---
 
-## 👨‍💻 Autor & Contribuidores
+## Autor & Contribuidores
 
 <p align="center">
   <a href="https://github.com/RamonSilva20">
@@ -264,6 +264,6 @@ Agradecemos imensamente a todos os membros da comunidade que colaboram com o pro
 
 ---
 
-## 📄 Licença
+## Licença
 
 Este projeto é distribuído sob a licença **Apache License 2.0**. Consulte o arquivo [LICENSE.txt](LICENSE.txt) para obter mais informações.
