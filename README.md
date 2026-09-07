@@ -262,4 +262,4 @@ Agradecemos imensamente a todos os membros da comunidade que colaboram com o pro
 
 ## 📄 Licença
 
-Este projeto é distribuído sob a licença **Apache License 2.0**. Consulte o arquivo [LICENSE](LICENSE) para obter mais informações.
+Este projeto é distribuído sob a licença **Apache License 2.0**. Consulte o arquivo [LICENSE](LICENSE.txt) para obter mais informações.
