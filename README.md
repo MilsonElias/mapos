@@ -2,7 +2,7 @@
 
   <img src="https://raw.githubusercontent.com/RamonSilva20/mapos/master/docs/dashboard.png" alt="Map-OS Dashboard" width="100%" style="border-radius: 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.15);" />
 
-![MapOS](https://raw.githubusercontent.com/RamonSilva20/mapos/master/assets/img/logo.png)
+  <img src="https://raw.githubusercontent.com/RamonSilva20/mapos/master/assets/img/logo.png" alt="MapOS" width="100%" />
 
 ### Sistema Open Source Completo para Gestão de Ordens de Serviço e Vendas
 
