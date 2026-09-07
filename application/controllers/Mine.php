@@ -206,9 +206,6 @@ class Mine extends CI_Controller
                         'isCliente' => true
                     ];
                     $this->session->set_userdata($session_mine_data);
-                    log_info($_SERVER['REMOTE_ADDR'] . ' Efetuou login no sistema');
-
-                    // Registrar login na auditoria
                     $this->load->model('Audit_model');
                     $log_data = [
                         'usuario' => $cliente->nomeCliente,
