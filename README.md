@@ -1,6 +1,6 @@
 <div align="center">
 
-  <img src="https://github.com/MilsonElias/mapos/tree/master/docs/dashboard.jpeg" alt="Map-OS Dashboard" width="100%" style="border-radius: 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.15);" />
+  <img src="https://github.com/MilsonElias/mapos/tree/master/docs/dashboard.jpg" alt="Map-OS Dashboard" width="100%" style="border-radius: 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.15);" />
 
 ### Sistema Completo para Gestão de Ordens de Serviço e Vendas
 
