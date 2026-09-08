@@ -12,8 +12,6 @@
   </p>
 
   <p align="center">
-    <a href="#-sobre-o-projeto">Sobre</a> •
-    <a href="#-recursos-principais">Recursos</a> •
     <a href="#-instalação">Instalação</a> •
     <a href="#-atualização">Atualização</a> •
     <a href="#-gateways-de-pagamento">Pagamentos</a> •
