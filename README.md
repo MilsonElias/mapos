@@ -2,8 +2,6 @@
 
   <img src="https://github.com/MilsonElias/mapos/blob/master/docs/dashboardL.jpg" alt="Map-OS Dashboard" width="100%" style="border-radius: 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.15);" />
 
-# Map-OS | Sistema para gestão de Ordens de Serviço e vendas
-
 ---
 
   <p align="center">
