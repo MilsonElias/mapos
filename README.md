@@ -4,6 +4,9 @@
 
 ---
 
+# Map-OS
+### Sistema para Gestão de Ordens de Serviço e Vendas
+
   <p align="center">
     <a href="https://github.com/RamonSilva20/mapos/releases"><img src="https://img.shields.io/badge/Versão-4.54.0-0284c7.svg?style=for-the-badge&logo=tag&logoColor=white" alt="Versão"></a>
     <a href="https://php.net"><img src="https://img.shields.io/badge/PHP-%3E%3D_8.4-777bb4.svg?style=for-the-badge&logo=php&logoColor=white" alt="PHP 8.4"></a>
@@ -23,9 +26,6 @@
 </div>
 
 ---
-
-# Map-OS
-### Sistema para Gestão de Ordens de Serviço e Vendas
 
 ## Sobre o Projeto
 
