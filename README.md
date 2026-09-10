@@ -24,6 +24,9 @@
 
 ---
 
+# Map-OS
+### Sistema para Gestão de Ordens de Serviço e Vendas
+
 ## Sobre o Projeto
 
 O **Map-OS** é uma solução robusta, gratuita e de código aberto voltada para pequenas e médias empresas, assistências técnicas e prestadores de serviços. O sistema centraliza todo o fluxo de trabalho operacional: desde o atendimento inicial e emissão de Ordens de Serviço até o controle financeiro, estoque, vendas de balcão e cobranças automatizadas via PIX, boleto e cartão.
