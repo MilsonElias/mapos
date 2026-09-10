@@ -222,10 +222,10 @@ O **Map-OS** é um software livre sustentado pelo esforço de desenvolvedores vo
 
 ## Comunidade & Contato
 
-- 📧 **E-mail de Contato:** [contato@mapos.com.br](mailto:contato@mapos.com.br)
-- 💬 **Comunidade no WhatsApp:** [Entrar no Grupo Oficial](https://chat.whatsapp.com/GVSg8tPQzXy0grfYpRfQps)
-- 💡 **Sugestões e Discussões:** [GitHub Discussions](https://github.com/RamonSilva20/mapos/discussions)
-- 🏢 **Desenvolvido e Mantido por:** [MountBit Soluções Web](https://mountbit.com.br)
+- **E-mail de Contato:** [contato@mapos.com.br](mailto:contato@mapos.com.br)
+- **Comunidade no WhatsApp:** [Entrar no Grupo Oficial](https://chat.whatsapp.com/GVSg8tPQzXy0grfYpRfQps)
+- **Sugestões e Discussões:** [GitHub Discussions](https://github.com/RamonSilva20/mapos/discussions)
+- **Desenvolvido e Mantido por:** [MountBit Soluções Web](https://mountbit.com.br)
 
 ---
 
