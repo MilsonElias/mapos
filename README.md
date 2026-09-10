@@ -4,7 +4,7 @@
 
 ---
 
-# Map-OS
+# MAP-OS
 ### Sistema para Gestão de Ordens de Serviço e Vendas
 
   <p align="center">
