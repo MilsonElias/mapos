@@ -203,7 +203,7 @@ Em parceria oficial com o Projeto Map-OS, a **SysGO** oferece hospedagem otimiza
 
 <p align="center">
   <a href="https://sysgo.com.br/mapos">
-    <img src="https://sysgo.com.br/img-externo/mapos-github.jpg" alt="SysGO - MAP-OS Cloud Hosting" width="60%" style="border-radius: 8px;" />
+    <img src="https://sysgo.com.br/img-externo/mapos-github.jpg" alt="SysGO - MAP-OS Cloud Hosting" width="100%" style="border-radius: 8px;" />
   </a>
   <br>
   👉 <a href="https://sysgo.com.br/mapos"><strong>Clique aqui para conhecer os planos de Hospedagem Map-OS</strong></a>
