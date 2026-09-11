@@ -234,7 +234,7 @@ O **Map-OS** é um software livre sustentado pelo esforço de desenvolvedores vo
 
 ## Histórico de Estrelas
 
-<p align="center">
+<p align="center" width="100%">
   <a href="https://star-history.com/#RamonSilva20/mapos&Date">
    <picture>
      <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=RamonSilva20/mapos&type=Date&theme=dark" />
