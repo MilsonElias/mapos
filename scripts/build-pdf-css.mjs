@@ -8,18 +8,24 @@ import { execFileSync } from 'node:child_process';
 import { mkdtempSync, readFileSync, rmSync, writeFileSync } from 'node:fs';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
+import { fileURLToPath } from 'node:url';
 import { transform } from 'lightningcss';
 
-const raiz = new URL('..', import.meta.url).pathname;
+// fileURLToPath (e não .pathname) para dar um caminho válido no Windows também
+// ("/S:/..." quebra o cwd do processo); no Linux/CI o resultado é o mesmo.
+const raiz = fileURLToPath(new URL('..', import.meta.url));
 const pasta = mkdtempSync(join(tmpdir(), 'mapos-pdf-'));
 const compilado = join(pasta, 'pdf.css');
 
 try {
-  execFileSync('npx', ['tailwindcss', '-i', 'assets/src/pdf.css', '-o', compilado], { cwd: raiz, stdio: 'inherit' });
+  // Chama a CLI do Tailwind com o próprio Node (sem npx): funciona em Windows e
+  // Linux, sem depender de resolução de .cmd/PATH.
+  const cliTailwind = fileURLToPath(new URL('../node_modules/@tailwindcss/cli/dist/index.mjs', import.meta.url));
+  execFileSync(process.execPath, [cliTailwind, '-i', 'assets/src/pdf.css', '-o', compilado], { cwd: raiz, stdio: 'inherit' });
 
   const origem = readFileSync(compilado);
 
-  // 1ª passada: junta as variáveis declaradas (:root, :host, *) para resolver os var().
+  // 1ª passada: junta as variáveis para resolver os var(); vale a primeira declaração de cada uma.
   // Valores iniciais dos @property que as utilities usam (ex.: border-style).
   const variaveis = new Map([['--tw-border-style', [{ type: 'token', value: { type: 'ident', value: 'solid' } }]]]);
   transform({
@@ -28,7 +34,9 @@ try {
     visitor: {
       Declaration: {
         custom(declaracao) {
-          if (declaracao.name.startsWith('--')) variaveis.set(declaracao.name, declaracao.value);
+          // A primeira declaração é a do :root (modo claro, tema padrão); as
+          // seguintes são do modo escuro, dos temas de cor e da sidebar.
+          if (declaracao.name.startsWith('--') && !variaveis.has(declaracao.name)) variaveis.set(declaracao.name, declaracao.value);
         },
       },
     },

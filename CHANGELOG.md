@@ -6,6 +6,37 @@ e [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [5.2.2] - 2026-10-29
+
+Correção de segurança na API de usuários. Sem migration nem variável nova no `.env`. **Atualize se usa a API (`API_ENABLED=true`).**
+
+### Security
+- A API de usuários (`POST`, `PUT` e `DELETE` de `/api/v1/usuarios`) passa a aplicar a regra de delegação do painel (#2879). Antes, quem tinha a permissão `cUsuario` sem ser administrador podia criar ou promover contas ao grupo Administrador, trocar a senha do usuário principal e excluir usuários de grupos maiores. Agora só se concede, edita ou exclui o que o próprio grupo do operador tem, e só o usuário principal altera o usuário principal. Afeta a 5.2.0 e a 5.2.1; quem não usa a API (`API_ENABLED=false`, o padrão) não era afetado. Agradecimento a [@HieuPenguinnn](https://github.com/HieuPenguinnn) pelo relato responsável.
+
+## [5.2.1] - 2026-10-29
+
+Correção nas configurações. Sem migration e sem variável nova no `.env`.
+
+### Fixed
+- Configurações que ainda não tinham linha no banco (ex.: modo e tema de cor padrão em instalações pelo `banco.sql`) agora são gravadas, em vez de a tela confirmar sem salvar. #3040 [@cabralwms](https://github.com/cabralwms)
+
+## [5.2.0] - 2026-10-27
+
+Temas de cor, cards de resumo com tendência e novos filtros nos relatórios. Tem uma migration (`20261027000000_add_tema_cor`): depois de atualizar, use "Atualizar banco de dados" na aba Sistema. Sem variável nova no `.env`.
+
+### Added
+- Temas de cor (Azul, Verde, Violeta e Grafite, além do laranja padrão), independentes do modo Claro, Escuro ou Sistema. Cada pessoa escolhe no menu do usuário e o padrão do sistema fica em Configurações, Geral. A área do cliente e as telas de login mantêm a paleta da marca. Contraste conferido por script (`scripts/contraste-temas.mjs`). #3032 #3034 [@RamonSilva20](https://github.com/RamonSilva20), a partir da sugestão de [@cabralwms](https://github.com/cabralwms) (#3029)
+- Cards de resumo do Financeiro e do Painel com tendência em relação ao período anterior, mini-gráfico, ícone por status e clique no card. #3033 [@RamonSilva20](https://github.com/RamonSilva20), a partir da sugestão de [@cabralwms](https://github.com/cabralwms) (#3029)
+- Histórico da OS: a bolinha de cada mudança tem a cor do status, e a mais recente mostra "Status atual". #3031 [@RamonSilva20](https://github.com/RamonSilva20), a partir da sugestão de [@cabralwms](https://github.com/cabralwms) (#3029)
+- Relatórios: busca de cliente (nome, telefone, celular, CPF ou CNPJ), de produto (nome ou código de barras) e de serviço por nome ou por cliente, que lista a OS, o cliente e o valor cobrado; e filtro de forma de pagamento no financeiro. #3027 [@cabralwms](https://github.com/cabralwms)
+
+### Changed
+- `DESIGN.md`: nova seção "Color Themes" e nova especificação do `kpi-card`. #3032 #3033 [@RamonSilva20](https://github.com/RamonSilva20)
+
+### Fixed
+- Sidebar recolhida: abrir o menu do usuário deixava de expandir a sidebar sozinha. #3025 #3026 [@RamonSilva20](https://github.com/RamonSilva20)
+- O build do CSS dos PDFs também funciona no Windows. #3030 [@RamonSilva20](https://github.com/RamonSilva20), a partir da sugestão de [@cabralwms](https://github.com/cabralwms) (#3029)
+
 ## [5.1.0] - 2026-10-23
 
 Melhorias na ficha do cliente, no painel e no preenchimento de CEP e CNPJ. Sem migration nem variável nova no `.env`.
