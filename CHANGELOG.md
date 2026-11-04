@@ -6,6 +6,33 @@ e [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [5.3.0] - 2026-11-03
+
+Painel com abas de status e gráfico de OS por mês. Sem migration e sem variável nova no `.env`. Na primeira vez depois de atualizar, recarregue o painel com Ctrl+F5.
+
+### Added
+- Painel: as seções de Ordens de serviço e Vendas têm abas por status (com a contagem na cor do status), carregadas sem recarregar a página, e botões de ver, editar e imprimir em cada linha, conforme a permissão. #3045 [@cabralwms](https://github.com/cabralwms)
+- Painel: o gráfico de OS por status alterna entre quantidade e valor (R$), mostra o total no centro e tem filtro de mês (atual ou passado, pela data de abertura). As abas e a lista de OS acompanham o mês escolhido. O botão "Ocultar valores" desabilita o modo R$. #3037 #3045 [@cabralwms](https://github.com/cabralwms)
+
+### Changed
+- "Lançamentos a vencer" no painel lista do vencimento mais distante para o mais próximo. #3045
+
+## [5.2.4] - 2026-11-03
+
+Cores próprias para os status das OS. Sem migration e sem variável nova no `.env`. Na primeira vez depois de atualizar, recarregue o painel com Ctrl+F5.
+
+### Changed
+- Cada status de OS e venda tem cor própria para leitura rápida: Aberto em verde, Finalizado em azul-escuro e Faturado em roxo. As cores de todas as pills de status foram recalibradas (fundo mais marcado, contraste conferido em `DESIGN.md`) e o histórico de status da OS usa as mesmas cores na linha do tempo. #3044 #3052 [@cabralwms](https://github.com/cabralwms)
+
+## [5.2.3] - 2026-11-03
+
+Correções no painel e na atualização. Sem migration e sem variável nova no `.env`. Na primeira vez depois de atualizar, recarregue o painel com Ctrl+F5.
+
+### Fixed
+- A atualização pela tela mantém o bloco do `.htaccess` em que o cPanel (MultiPHP Manager) guarda a versão do PHP do domínio. Antes ele sumia e o sistema parava com "Your Composer dependencies require a PHP version >= 8.5.0" até a versão ser escolhida de novo na hospedagem. #3046 #3047
+- Os cards "OS em andamento", "Orçamentos" e "Vendas em aberto" do painel abrem a listagem já filtrada, com os mesmos status que o card soma. #3037 #3048
+- CSS e JS locais saem com a versão do sistema na URL (`?v=`), então depois de atualizar o navegador não reusa o `painel.js` antigo. Era o que fazia o botão "Ocultar valores" aparecer e não funcionar. #3028 #3049
+
 ## [5.2.2] - 2026-10-29
 
 Correção de segurança na API de usuários. Sem migration nem variável nova no `.env`. **Atualize se usa a API (`API_ENABLED=true`).**
